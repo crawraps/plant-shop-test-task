@@ -1,0 +1,27 @@
+.dignities .dignity {
+  height: 155px;
+  width: 268px;
+  background-color: transparent;
+  border: solid 1px #e0e0e0;
+  padding: 21px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.dignities .dignity .dignity-title-block {
+  display: flex;
+}
+.dignities .dignity .dignity-title-block .dignity-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+}
+.dignities .dignity .dignity-subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+}/*# sourceMappingURL=dignities.css.map */

@@ -1,0 +1,23 @@
+.header {
+  position: absolute;
+  height: 116px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+
+  .form-button {
+    width: 111px;
+    height: 36px;
+    background-color: $primary;
+    font-family: Nunito;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $light;
+    }
+  }
+}

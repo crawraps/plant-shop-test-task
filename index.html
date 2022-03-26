@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/icon.svg" />
+    <link href="./css/mian.css" rel="stylesheet" />
+    <title>Plant shop</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="container-flex header">
+      <!-- Logo -->
+      <a href="/">
+        <img src="./assets/images/icon.svg" alt="icon" />
+      </a>
+
+      <button class="form-button" name="open-form-button">Форма</button>
+    </div>
+
+    <!-- Title block -->
+    <div class="container-fluid-flex title-block">
+      <div class="title-image"></div>
+      <div class="title-content">
+        <div class="title-text">
+          <h1 class="title">Kembang Flower Mantap</h1>
+          <p class="subtitle">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div class="title-buttons">
+          <button class="button-prev">
+            <span class="button-subtitle"
+              ><img src="./assets/images/arrow-left.svg" alt="arrow left" />
+              Previous</span
+            >
+            <span class="button-title">Kaktus plant</span>
+          </button>
+          <button class="button-next">
+            <span class="button-subtitle"
+              >Next <img src="./assets/images/arrow-right.svg" alt="arrow left"
+            /></span>
+            <span class="button-title">Rahasia plant</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dignities (insides in scripts) -->
+    <div class="container">
+      <div class="dignities"></div>
+    </div>
+
+    <!-- Featured plants (insides in scripts) -->
+    <div class="container plants">
+      <div class="plants-title-block">
+        <h2 class="plants-title">Featured Plants</h2>
+        <select class="plants-sort-button">
+          <option>Cheaper first</option>
+        </select>
+      </div>
+      <div class="plants-container"></div>
+    </div>
+
+    <!-- Modal window (insides in scripts) -->
+    <div class="modal hidden"></div>
+
+    <script src="./scripts/js/data.js"></script>
+    <script src="./scripts/js/modal.js"></script>
+    <script src="./scripts/js/dignities.js"></script>
+    <script src="./scripts/js/plants.js"></script>
+    <script src="./scripts/js/index.js"></script>
+  </body>
+</html>

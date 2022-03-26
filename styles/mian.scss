@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@700&family=PT+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 100px;
+
+  &.modal-open {
+    height: 100%;
+    overflow: hidden;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html {
+  scrollbar-width: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+$primary: #156963;
+$light: #46b1aa;
+$border: #e0e0e0;
+
+@import 'header', 'title-block', 'dignities', 'plants', 'modal', 'container',
+  'media';

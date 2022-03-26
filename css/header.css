@@ -1,0 +1,11 @@
+.header {
+  position: fixed;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .form-button {
+  width: 111px;
+  height: 36px;
+  font-family: Nunito;
+}/*# sourceMappingURL=header.css.map */

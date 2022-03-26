@@ -1,0 +1,127 @@
+h1 {
+  font-size: 68px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.button-subtitle {
+  font-size: 24px;
+}
+
+.button-title {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container,
+.container-flex {
+    width: 1168px;
+    margin: 0 calc((100% - 1168px) / 2);
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .button-subtitle {
+    font-size: 22px;
+  }
+
+  .button-title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container,
+.container-flex {
+    width: 968px;
+    margin: 0 calc((100% - 968px) / 2);
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .button-subtitle {
+    font-size: 20px;
+  }
+
+  .button-title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container,
+.container-flex {
+    width: 760px;
+    margin: 0 calc((100% - 760px) / 2);
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .button-subtitle {
+    font-size: 18px;
+  }
+
+  .button-title {
+    font-size: 26px;
+  }
+
+  .dignities {
+    justify-content: center;
+  }
+  .dignities .dignity {
+    margin: 10px 10px;
+  }
+
+  .plants .plants-container {
+    justify-content: start;
+  }
+  .plants .plants-container .plant {
+    margin: 24px auto 0px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container,
+.container-flex {
+    width: 536px;
+    margin: 0 calc((100% - 536px) / 2);
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .button-subtitle {
+    font-size: 16px;
+  }
+
+  .button-title {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=media.css.map */

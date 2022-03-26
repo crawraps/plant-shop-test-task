@@ -1,0 +1,83 @@
+.plants {
+  display: flex;
+  flex-direction: column;
+
+  .plants-title-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $border;
+
+    .plants-title {
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      vertical-align: bottom;
+    }
+
+    .plants-sort-button {
+      height: 30px;
+      border: solid 1px $border;
+      width: 130px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      background-color: transparent;
+      padding: 0px 12px;
+      cursor: pointer;
+    }
+  }
+
+  .plants-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    .plant {
+      display: flex;
+      flex-direction: column;
+      width: 217px;
+      margin-top: 24px;
+
+      .plant-image {
+        width: 100%;
+        aspect-ratio: 1;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .plant-title {
+        width: 100%;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px 0px 8px 0px;
+      }
+      .plant-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
+      }
+
+      &:hover {
+        .plant-title {
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
